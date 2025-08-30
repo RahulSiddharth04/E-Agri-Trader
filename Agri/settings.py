@@ -82,8 +82,7 @@ INSTALLED_APPS += ['corsheaders']
 MIDDLEWARE = ['corsheaders.middleware.CorsMiddleware'] + MIDDLEWARE
 
 CORS_ALLOWED_ORIGINS = [
-    'https://ecommerce-db72.onrender.com',
-    'https://e-agri-traders.onrender.com',
+    "https://e-agri-trader.onrender.com",
 ]
 
 
@@ -165,6 +164,5 @@ DEFAULT_FROM_EMAIL = 'eagritraders2025@gmail.com'  # Add this line
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://ecommerce-db72.onrender.com',
-    'https://e-agri-traders.onrender.com',
+    "https://e-agri-trader.onrender.com",
 ]
